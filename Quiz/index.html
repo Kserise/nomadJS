@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vanilla Challenge</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Random Number Game</h1>
+    <form action="#" id="inputForm">
+        <h3>
+        Generate a number between 0 and
+        <input type="number" name="range" min="0" required />
+        </h3>
+        <p>
+        Guess the number :
+        <input type="number" name="value" min="0" required />&nbsp;<input
+            type="submit"
+            value="Play!"
+        />
+        </p>
+    </form>
+    <div>
+        <p id="chose"></p>
+        <h4 id="result"></h4>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
